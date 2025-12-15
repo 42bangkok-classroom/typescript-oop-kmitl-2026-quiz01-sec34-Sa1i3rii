@@ -12,4 +12,4 @@ if (numbers.some(isNaN)) {
 
 const largest: number = Math.max(...numbers);
 
-console.log(largest);
+console.log(`${largest}`);
