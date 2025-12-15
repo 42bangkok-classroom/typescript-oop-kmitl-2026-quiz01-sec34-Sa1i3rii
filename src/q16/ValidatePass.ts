@@ -1,13 +1,13 @@
 const password = process.argv[2];
-if (password === undefined) {
-  console.log("Please provide a password.");
-  process.exit(1);
-}
-  if (password.length >= 8) {
-  console.log("OK")
-}
-else{
-  console.log("Too short");
+
+const least8 = password.length >= 8;
+const number = /\d/.test(password);
+const uppcder = /[A-Z]/.test(password);
+
+if (least8 && number && upper) {
+  console.log("Valid");
+} else {
+  console.log("Invalid");
 }
 
 
