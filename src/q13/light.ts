@@ -2,13 +2,13 @@ const light = process.argv[2];
 let lower = light.toLowerCase();
 switch(lower) {
   case "red":
-    console.log("stop");
+    console.log("Stop");
     break;
   case "yellow":
-    console.log("ready");
+    console.log("Caution");
     break;
   case "green":
-    console.log("go");
+    console.log("Go");
     break;
   default:
     console.log("Unknown");
